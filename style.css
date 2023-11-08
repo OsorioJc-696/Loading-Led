@@ -18,7 +18,6 @@ h1 span{
     font-family: Quantico;
     animation: anim 3.8s alternate infinite;
     animation-delay: calc(var(--i)*0.4s);
-    margin-bottom: 15px;
 
 }
 @keyframes anim{
