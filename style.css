@@ -17,9 +17,9 @@ h1 span{
     font-size: 7vw;
     font-family: Quantico;
     animation: anim 3.8s alternate infinite;
-    animation-delay: calc(var(--i)*0.4s);
-
+    animation-delay: calc(var(--i)*0.36s);
 }
+
 @keyframes anim{
     0%{transform: translateY(0) rotate(0)}
     40%{transform: translateY(0) rotate(0deg)}
