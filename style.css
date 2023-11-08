@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background: black;
+    color: #fff;
+}
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+h1 span{
+    position: relative;
+    display: inline-block;
+    font-size: 7.5vw;
+    font-family: Quantico;
+    animation: anim 3.8s alternate infinite;
+    animation-delay: calc(var(--i)*0.4s);
+    margin-bottom: 15px;
+
+}
+@keyframes anim{
+    0%{transform: translateY(0) rotate(0)}
+    40%{transform: translateY(0) rotate(0deg)}
+    50%{transform: translateY(-100px) rotate(18deg)}
+    60%{transform: translateY(0) rotate(360deg)}
+    100%{transform: translateY(0) rotate(360deg)}
+}
