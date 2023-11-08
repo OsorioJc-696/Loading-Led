@@ -1,5 +1,5 @@
 function col(){
-    for (let i=1; i<=9; i++){
+    for (let i=1; i<=10; i++){
         let r = rand(266);
         let g = rand(266);
         let b = rand(266);
